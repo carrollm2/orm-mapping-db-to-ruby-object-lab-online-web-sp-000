@@ -73,7 +73,7 @@ class Student
 
     sql = <<-SQL
       SELECT *
-      FROM students WHERE grade = 10 LIMIT 2
+      FROM students WHERE grade = 10 LIMIT number_of_students
     SQL
 
     binding.pry
